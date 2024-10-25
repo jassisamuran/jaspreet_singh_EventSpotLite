@@ -1,0 +1,35 @@
+/* EventCard.css */
+
+.event-card {
+    width: 200px; /* Fixed width for each card, adjust as needed */
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container {
+    width: 100%;
+    height: 150px; /* Fixed height for the image */
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .event-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+  }
+  
+  .event-details h3 {
+    font-size: 1.1rem;
+    margin: 10px 0 5px;
+  }
+  
+  .event-details p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
