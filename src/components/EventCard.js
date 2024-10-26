@@ -3,6 +3,7 @@ import {motion} from 'framer-motion'
 // import '../EventCard.css'
 function EventCard({event,onClick}){
     return (
+        <>
         <motion.div
             className="event-card"
             onClick={onClick}
@@ -14,6 +15,8 @@ function EventCard({event,onClick}){
             <p>{event.location}</p>
 
         </motion.div>
+        
+        </>
     )
 }
 export default EventCard

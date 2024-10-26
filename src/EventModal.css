@@ -1,0 +1,37 @@
+.modal-overlay{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+.modal-content{
+    background-color: white;
+    padding:2rem;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.close-button{
+    position:absolute;
+    display: block;
+    top:1rem;
+    right: 1rem;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.img {
+    width: 100%;        /* Makes image fit the width of its container */
+    height: 150px;      /* Adjust the height as needed */
+    object-fit: cover;  /* Ensures the image covers the box, cropping if needed */
+    border-radius: 7px;
+  }
