@@ -5,6 +5,7 @@ import '../EventModal.css';
 function EventModal({ event, onClose }) {
   return (
     <div className="modal-overlay" onClick={onClose} >
+      {/* motion.div for animation */}
       <motion.div 
         className="modal-content"
         onClick={(e) => e.stopPropagation()}
