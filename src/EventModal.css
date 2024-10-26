@@ -21,8 +21,8 @@
 .close-button{
     position:absolute;
     display: block;
-    top:1rem;
-    right: 1rem;
+    top:2rem;
+    right: 2rem;
     background: transparent;
     border: none;
     font-size: 1.5rem;

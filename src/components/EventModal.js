@@ -12,7 +12,7 @@ function EventModal({ event, onClose }) {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 50 }}
       >
-        <button  onClick={()=>onClose} className="close-button" >X</button>
+        <button  onClick={onClose} className="close-button" style={{right:1,top:2,color:'black'}} >X</button>
         <img src={event.image} alt={event.name} className='img'/>
         <h2 className='clr' style={{color:"red"}}>{event.name}</h2>
         <p>{event.date} - {event.location}</p>
