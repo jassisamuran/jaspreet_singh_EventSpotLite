@@ -35,40 +35,28 @@ A responsive single-page web application where users can discover local events w
    cd EventSpotLite
 Install Dependencies Make sure you have Node.js installed. Then, run:
 
-##2. **bash**
+2. **bash**
 Copy code
 npm install
 Run the Application To start the app in development mode:
 
-##3. **bash**
+3. **bash**
 Copy code
 npm start
 This will open the app in your browser at http://localhost:3000.
 
 Build for Production To create a production build:
 
-##4. **bash**
+4. **bash**
 Copy code
 npm run build
 This will generate optimized files in the build directory.
 
-##5. **Deploy**
+5. **Deploy**
 
 For deployment, you can upload the build directory to a hosting service like Netlify or Vercel.
 Follow the instructions on the hosting service for deploying a static React app.
-Project Structure
-php
-Copy code
-EventSpotLite/
-├── public/                 # Static assets
-│   └── index.html
-├── src/                    # Source code
-│   ├── components/         # Reusable components (e.g., EventCard, Modal)
-│   ├── data/               # Mock event data (JSON format)
-│   ├── App.js              # Main app component
-│   ├── index.js            # Entry point
-│   └── styles/             # CSS stylesheets
-└── README.md               # Documentation
+
 Usage
 Viewing Events: Browse through the list of events.
 Searching Events: Use the search bar to filter events by name or location.
