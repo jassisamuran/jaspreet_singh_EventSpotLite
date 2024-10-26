@@ -7,11 +7,6 @@ A responsive single-page web application where users can discover local events w
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Setup Instructions](#setup-instructions)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Demo](#demo)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
