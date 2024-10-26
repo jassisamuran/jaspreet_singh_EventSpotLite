@@ -1,23 +1,41 @@
 import logo from './logo.svg';
+import {useState} from 'react'
 import './App.css';
-
+import { events } from './components/data';
+import EventModal from './components/EventCard'
 function App() {
+  const [search,setSearch]=useState('')
+  const[selectedEvent,setSelectedEvent]=useState('')
+
+  const filteredEvents=events.filter(event=>
+    event.name.toLowerCase().includes(search.toLowerCase())  ||
+    event.location.toLowerCase().includes(search.toLowerCase())
+  );
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='Appp'>
+      <header className='app-header'>
+        <h1>EventSpot Lite</h1>
+        <input 
+          type='text'
+          placeholder='Seach events'
+          onChange={(e)=>setSearch(e.target.value)}
+          />
       </header>
+      <div className='event-list'>
+        {filteredEvents.map(event=>(
+          <EventModal 
+            key={event.id}
+            event={event}
+            onClick={()=>setSelectedEvent(event)}
+          />
+        ))}
+      </div>
+      {selectedEvent &&(
+        <EventModal
+          event={selectedEvent}
+          onclose={()=>setSelectedEvent(null)}/>
+      )}
     </div>
   );
 }
