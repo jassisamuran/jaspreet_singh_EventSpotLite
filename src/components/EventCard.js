@@ -9,7 +9,7 @@ function EventCard({event,onClick}){
             onClick={onClick}
             whileHover={{scale:1.05}}
         >
-            <img src={event.image} alt={event.name}/>
+            <img  src={event.image} alt={event.name} style={{height:'300px'}}/>
             <h3>{event.name}</h3>
             <p>{event.data}</p>
             <p>{event.location}</p>
