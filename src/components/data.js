@@ -15,6 +15,77 @@ export const events = [
       description: "Explore modern art pieces at the Art Expo.",
       image: "https://www.artfairmag.com/wp-content/uploads/artexpo-new-york-2-1.jpg"
     },
+    {
+      id: 3,
+      name: "Music Festival",
+      date: "2024-11-01",
+      location: "Mumbai",
+      description: "Enjoy a variety of music at the Music Festival!",
+      image: "https://th.bing.com/th/id/OIP.qVwQJqwVXHIL20Ote20aLAHaE8?rs=1&pid=ImgDetMain"},
+    {
+      id: 4,
+      name: "Art Expo",
+      date: "2024-12-15",
+      location: "Delhi",
+      description: "Explore modern art pieces at the Art Expo.",
+      image: "https://www.artfairmag.com/wp-content/uploads/artexpo-new-york-2-1.jpg"
+    },   {
+      id: 5,
+      name: "Music Festival",
+      date: "2024-11-01",
+      location: "Mumbai",
+      description: "Enjoy a variety of music at the Music Festival!",
+      image: "https://th.bing.com/th/id/OIP.qVwQJqwVXHIL20Ote20aLAHaE8?rs=1&pid=ImgDetMain"},
+    {
+      id: 6,
+      name: "Art Expo",
+      date: "2024-12-15",
+      location: "Delhi",
+      description: "Explore modern art pieces at the Art Expo.",
+      image: "https://www.artfairmag.com/wp-content/uploads/artexpo-new-york-2-1.jpg"
+    },   {
+      id: 7,
+      name: "Music Festival",
+      date: "2024-11-01",
+      location: "Mumbai",
+      description: "Enjoy a variety of music at the Music Festival!",
+      image: "https://th.bing.com/th/id/OIP.qVwQJqwVXHIL20Ote20aLAHaE8?rs=1&pid=ImgDetMain"},
+    {
+      id: 8,
+      name: "Art Expo",
+      date: "2024-12-15",
+      location: "Delhi",
+      description: "Explore modern art pieces at the Art Expo.",
+      image: "https://www.artfairmag.com/wp-content/uploads/artexpo-new-york-2-1.jpg"
+    },   {
+      id: 9,
+      name: "Music Festival",
+      date: "2024-11-01",
+      location: "Mumbai",
+      description: "Enjoy a variety of music at the Music Festival!",
+      image: "https://th.bing.com/th/id/OIP.qVwQJqwVXHIL20Ote20aLAHaE8?rs=1&pid=ImgDetMain"},
+    {
+      id: 10,
+      name: "Art Expo",
+      date: "2024-12-15",
+      location: "Delhi",
+      description: "Explore modern art pieces at the Art Expo.",
+      image: "https://www.artfairmag.com/wp-content/uploads/artexpo-new-york-2-1.jpg"
+    },   {
+      id: 11,
+      name: "Music Festival",
+      date: "2024-11-01",
+      location: "Mumbai",
+      description: "Enjoy a variety of music at the Music Festival!",
+      image: "https://th.bing.com/th/id/OIP.qVwQJqwVXHIL20Ote20aLAHaE8?rs=1&pid=ImgDetMain"},
+    {
+      id: 12,
+      name: "Art Expo",
+      date: "2024-12-15",
+      location: "Delhi",
+      description: "Explore modern art pieces at the Art Expo.",
+      image: "https://www.artfairmag.com/wp-content/uploads/artexpo-new-york-2-1.jpg"
+    },
     // Add more mock events as needed
   ];
   
