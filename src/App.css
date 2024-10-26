@@ -65,7 +65,7 @@
 }
 
 /* Modal Styling */
-.modal-overlay {
+/* .modal-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -98,7 +98,7 @@
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-}
+} */
 
 /* Ensure padding on small devices */
 @media (max-width: 767px) {

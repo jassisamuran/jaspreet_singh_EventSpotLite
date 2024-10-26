@@ -2,10 +2,12 @@ import logo from './logo.svg';
 import {useState} from 'react'
 import './App.css';
 import { events } from './components/data';
-import EventModal from './components/EventCard'
+import EventModal from './components/EventModal'
+import EventCard from './components/EventCard';
 function App() {
   const [search,setSearch]=useState('')
   const[selectedEvent,setSelectedEvent]=useState('')
+  console.log(selectedEvent)
 
   const filteredEvents=events.filter(event=>
     event.name.toLowerCase().includes(search.toLowerCase())  ||
@@ -24,7 +26,7 @@ function App() {
       </header>
       <div className='event-list'>
         {filteredEvents.map(event=>(
-          <EventModal 
+          <EventCard 
             key={event.id}
             event={event}
             onClick={()=>setSelectedEvent(event)}
@@ -34,7 +36,7 @@ function App() {
       {selectedEvent &&(
         <EventModal
           event={selectedEvent}
-          onclose={()=>setSelectedEvent(null)}/>
+          onClose={()=>setSelectedEvent(null)}/>
       )}
     </div>
   );
